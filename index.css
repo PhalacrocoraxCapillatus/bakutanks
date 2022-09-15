@@ -1,0 +1,19 @@
+body {
+    margin: 0 0 0 0;
+}
+main {
+    width: 80%;
+    margin: auto 10% auto 10%;
+}
+header {
+    background-color: #fffbfb;
+    box-shadow: 0 5px 5px #f7f0f0;
+}
+.ks {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.intro {
+    margin-bottom: 0;
+}
