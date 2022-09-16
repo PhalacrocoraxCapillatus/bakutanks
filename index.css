@@ -4,7 +4,16 @@ body {
     display: flex;
     flex-flow: column;
 }
+@keyframes opt {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
 main {
+    animation: opt 1.2s;
     flex: 1;
     color: #f7f0f0;
     background-size: cover;
