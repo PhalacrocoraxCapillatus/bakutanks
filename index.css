@@ -1,16 +1,31 @@
 body {
     margin: 0 0 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
 }
 main {
+    flex: 1;
+    color: #f7f0f0;
+    background-size: cover;
+    background-image: url(./assets/icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > div {
     width: 80%;
     margin: auto 10% auto 10%;
 }
-header {
-    background-color: #fffbfb;
-    box-shadow: 0 5px 5px #f7f0f0;
+main > div > img {
+    display: block;
+    margin: 10px auto auto auto;
 }
-.ks {
-    font-size: 32px;
+.title {
+    font-size: 48px;
     font-weight: bold;
     text-align: center;
 }
