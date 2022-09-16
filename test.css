@@ -1,0 +1,54 @@
+body {
+    margin: 0 0 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+@keyframes opt {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+main {
+    animation: opt 1.2s;
+    flex: 1;
+    color: #f7f0f0;
+    background-size: cover;
+    background-image: url(./assets/icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > div {
+    width: 80%;
+    margin: auto 10% auto 10%;
+}
+main > div > img {
+    display: block;
+    margin: 10px auto auto auto;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.introduction {
+    text-align: center;
+}
+.introduction > p{
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+}
+.intro {
+    margin-bottom: 0;
+}
+section > h1 {
+    font-size: 36px;
+}
