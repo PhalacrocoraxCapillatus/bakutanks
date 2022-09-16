@@ -38,6 +38,17 @@ main > div > img {
     font-weight: bold;
     text-align: center;
 }
+.introduction {
+    text-align: center;
+}
+.introduction > p{
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+}
 .intro {
     margin-bottom: 0;
+}
+section > h1 {
+    font-size: 36px;
 }
